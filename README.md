@@ -4,7 +4,7 @@ A simple command line application to create, read, update and delete note in Nod
 
 For parsing command line, a npm package is used [yargs](https://www.npmjs.com/package/yargs)
 
-**[FS]**(https://nodejs.org/api/fs.html) one of the core Node.js module is used. 
+[FS](https://nodejs.org/api/fs.html) one of the core Node.js module is used. 
 A `notes-data.json` file is used to store all the notes.
 
 When a user enter a text to save then it is converted into JSON using `JSON.stringify()` and for reading a text, it is retrived using `JSON.parse()`.
